@@ -3,12 +3,31 @@
 ## Introduction
 This project aims to build and train a model to predict the single pixel coordinate of flowers in images from the Flowers Dataset. The minimum input image size for the model is set to 256x256.
 
+## Table of Contents
+- [Dependencies](#dependencies)
+- [How to Run Locally](#how-to-run-locally)
+- [How to Run in a Containerized Environment](#how-to-run-in-a-containerized-environment)
+- [Code Style](#code-style)
+
+## Dependencies
+Make sure you have the following dependencies installed:
+- Python 3.x
+- TensorFlow
+- NumPy
+- OpenCV
+- scikit-learn
+
+You can install the dependencies using the following command:
+```bash
+pip install -r requirements.txt
+
+
 ## Setup and Dependencies
 
 ### Local Environment
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Sravs2-2/flowers-coordinate-prediction.git
+    git clone https://github.com/your-username/flowers-coordinate-prediction.git
     cd flowers-coordinate-prediction
     ```
 
@@ -69,3 +88,11 @@ The code follows the PEP 8 style guidelines. To check for compliance, you can us
 
 ```bash
 flake8 .
+
+
+
+
+
+
+
+
