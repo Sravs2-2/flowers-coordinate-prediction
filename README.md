@@ -1,5 +1,3 @@
-# sravani_ML
-
 # Flowers Dataset Single Pixel Coordinate Prediction
 
 ## Introduction
