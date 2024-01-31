@@ -20,16 +20,14 @@ Make sure you have the following dependencies installed:
 You can install the dependencies using the following command:
 ```bash
 pip install -r requirements.txt
-
-
-## Setup and Dependencies
+```
 
 ### Local Environment
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/flowers-coordinate-prediction.git
-    cd flowers-coordinate-prediction
-    ```
+ ```bash
+  git clone https://github.com/Sravs2-2/sravani_ML.git
+  cd sravani_ML
+ ```
 
 2. Create a virtual environment (optional but recommended):
     ```bash
@@ -41,53 +39,34 @@ pip install -r requirements.txt
     ```bash
     pip install -r requirements.txt
     ```
+4. train the training script:
+   ```bash
+    python train.py
+   ```
 
 ### Containerized Environment (Docker)
 Ensure you have Docker installed on your machine.
 
 1. Build the Docker image:
     ```bash
-    docker build -t flowers-coordinate-prediction .
+    docker build -t sravani-ml 
     ```
 
 2. Run the Docker container:
     ```bash
-    docker run -it flowers-coordinate-prediction
+    docker run -it sravani-ml
     ```
-
-## Training and Validation Scripts
-
-### Local Environment
-1. Open a terminal and activate the virtual environment (if used).
-2. Run the training script:
-    ```bash
-    python train.py
-    ```
-
-3. Run the validation script:
-    ```bash
-    python validate.py
-    ```
-
-### Containerized Environment
-1. Open a terminal and run the training script inside the Docker container:
-    ```bash
-    docker exec -it <container_id> python train.py
-    ```
-
-2. Run the validation script:
-    ```bash
-    docker exec -it <container_id> python validate.py
-    ```
-
-Replace `<container_id>` with the actual container ID.
 
 ## Code Style (PEP 8 Compliance)
 
 The code follows the PEP 8 style guidelines. To check for compliance, you can use tools like `flake8`:
 
 ```bash
-flake8 .
+flake8
+```
+
+
+
 
 
 
