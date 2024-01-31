@@ -8,7 +8,7 @@ This project aims to build and train a model to predict the single pixel coordin
 ### Local Environment
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/flowers-coordinate-prediction.git
+    git clone https://github.com/Sravs2-2/flowers-coordinate-prediction.git
     cd flowers-coordinate-prediction
     ```
 
